@@ -40,4 +40,4 @@ Start the server
 
 
 ## 🛠 Skills
-React JS, Tailwind CSS, NPM Package
+React JS, Tailwind CSS, NPM Package, Vercel Hosting
