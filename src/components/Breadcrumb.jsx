@@ -2,7 +2,7 @@ import React from "react";
 
 function Breadcrumb() {
   return (
-    <div className="max-w-screen-xl mx-20 my-4">
+    <div className="max-w-screen-xl mx-0 md:mx-20 my-4">
       <div className="flex" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
           <li className="inline-flex items-center">
