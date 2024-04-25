@@ -46,7 +46,7 @@ function Navbar() {
             <li>Flashcard</li>
             <li>Contact</li>
             <li>FAQ</li>
-            <li className=" bg-gradient-to-b from-blue-900 to-blue-500 text-white px-5 py-1 rounded-full">
+            <li className="bg-gradient-to-b from-blue-900 to-blue-500 text-white px-5 py-1 rounded-full">
               Login
             </li>
           </ul>
