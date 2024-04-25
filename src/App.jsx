@@ -6,12 +6,12 @@ import Faq from "./components/Faq";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-[#F9F9F9]">
       <Navbar />
       <Breadcrumb />
       <Card />
       <Faq />
-    </>
+    </div>
   );
 };
 
