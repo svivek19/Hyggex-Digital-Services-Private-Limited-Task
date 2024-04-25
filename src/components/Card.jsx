@@ -1,9 +1,12 @@
 import React from "react";
+
+import logo from "../assets/brandLogo.png";
 import { FaRegLightbulb } from "react-icons/fa";
 import { HiMiniSpeakerWave } from "react-icons/hi2";
 import { LuRotateCw } from "react-icons/lu";
 import { GrPrevious, GrNext } from "react-icons/gr";
 import { IoMdQrScanner } from "react-icons/io";
+import { IoMdAdd } from "react-icons/io";
 
 const Card = () => {
   return (
@@ -30,7 +33,7 @@ const Card = () => {
           <HiMiniSpeakerWave className="text-white text-2xl" />
         </div>
 
-        <div className="text-center py-24 text-white text-2xl">
+        <div className="text-center py-24 text-white text-2xl font-semibold">
           <h1>9 + 6 + 7x - 2x - 3</h1>
         </div>
       </div>
@@ -46,6 +49,17 @@ const Card = () => {
         </div>
         <div>
           <IoMdQrScanner className="text-blue-800 text-2xl" />
+        </div>
+      </div>
+
+      <div className="w-11/12 md:w-5/6 my-10 mx-auto flex justify-between items-center">
+        <img src={logo} alt="logo" className="h-14 md:h-16" />
+
+        <div className="flex space-x-2">
+          <IoMdAdd className="bg-gradient-to-b from-blue-900 to-blue-500 w-8 h-8 p-2 rounded-full text-white" />
+          <span className="text-blue-900 text-lg md:text-xl font-semibold">
+            Create Flashcard
+          </span>
         </div>
       </div>
     </div>
